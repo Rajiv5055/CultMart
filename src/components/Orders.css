@@ -1,0 +1,31 @@
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.orders__header {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: lightgrey;
+  color: aliceblue;
+  align-items: center;
+  height: 10vh;
+}
+.orders__body {
+  width: 100vw;
+  height: 85vh;
+}
+.orders__body > h2 {
+  margin: 0;
+  color: black;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+}
+.orders__header > a.orders--active {
+  border-bottom: 3px solid grey;
+  padding: 0px;
+  color: grey;
+  text-decoration: none;
+}
+
